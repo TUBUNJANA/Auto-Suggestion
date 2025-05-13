@@ -1,8 +1,32 @@
-# React + Vite
+# 🔍 Auto-Suggestion Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a React-based frontend for an Auto-Suggestion system that helps users receive intelligent, real-time suggestions as they type. The frontend connects to a FastAPI backend using a Trie (prefix tree) data structure for efficient and accurate lookup of search terms.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
+
+- 🔎 **Live Auto-Suggestions** as the user types
+- ✅ **Efficient API Calls** with React's `useTransition` for smooth UI updates
+- 🎨 **Modern and Clean UI** built using [MUI (Material UI)](https://mui.com/)
+- 🖱️ **Clickable Suggestions** that populate the input field
+- 🔄 Suggestions update dynamically based on user input and backend data
+
+---
+
+## 📦 Tech Stack
+
+- **React 18+**
+- **Material UI (MUI)**
+- **JavaScript (ES6+)**
+- **FastAPI Backend** for suggestions (running on `http://localhost:8000`)
+
+---
+
+## 🛠️ Installation
+
+1. **Clone the repository**
+
+```bash
+git clone https://github.com/yourusername/auto-suggestion-frontend.git
+cd auto-suggestion-frontend
